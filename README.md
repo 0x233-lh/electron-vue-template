@@ -1,24 +1,25 @@
 # electron-vue-template
+一个快速搭建electron-vue的项目
+## 项目运行
 
-## Project setup
+## 项目初始化
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 开发环境的运行
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn electron:serve
 ```
 
-### Lints and fixes files
+### 打包electon
 ```
-yarn lint
+yarn electron:build
 ```
+## TODO
+* [ ] 添加vuex
+* [ ] 添加vue-router
+* [ ] 添加axios
+* [ ] 添加不同环境下electron的安装方式
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
